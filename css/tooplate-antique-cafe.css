@@ -61,7 +61,8 @@ a.tm-bg-green:hover {
 }
 
 .tm-bg-brown {
-    background-color: #544639;
+    background-color: #834ab5;
+    opacity: 0.9;
 }
 
 .tm-bg-green {
