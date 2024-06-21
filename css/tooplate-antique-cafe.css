@@ -61,8 +61,7 @@ a.tm-bg-green:hover {
 }
 
 .tm-bg-brown {
-    background-color: #834ab5;
-    opacity: 0.9;
+    background-color: rgba(131, 74, 181, 0.4); /* 0.4 represents 40% opacity */
 }
 
 .tm-bg-green {
@@ -79,6 +78,8 @@ a.tm-bg-green:hover {
 
 .tm-item-container {
     max-width: 520px;
+    display: flex;
+    flex-direction: column;
 }
 
 .input:focus {
@@ -151,10 +152,12 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
 @media (max-width: 370px) {
     .tm-menu-item {
         flex-direction: column;
+        flex-grow: 1;
     }
 
     .tm-menu-item-2 {
         flex-direction: column-reverse;
+        flex-grow: 1;
     }
 
     .tm-menu-item img {
