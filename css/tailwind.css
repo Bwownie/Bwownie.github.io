@@ -469,6 +469,26 @@ a {
   text-decoration: inherit;
 }
 
+#gitlink {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 800;
+  color: #ffcc66;
+  overflow: hidden;
+  background: linear-gradient(to right, #cfa44f, #cfa44f 50%, #ffcc66 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+}
+
+#gitlink:hover {
+  background-position: 0 100%;
+}
+
 /**
  * Reset form element properties that are easy to forget to
  * style explicitly so you don't inadvertently introduce
@@ -826,7 +846,7 @@ video {
 
 .bg-black {
   --tw-bg-opacity: 1;
-  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+  background-color: rgba(131, 74, 181, var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -836,6 +856,10 @@ video {
 
 .bg-opacity-0 {
   --tw-bg-opacity: 0;
+}
+
+.bg-opacity-40 {
+  --tw-bg-opacity: 0.4
 }
 
 .bg-opacity-50 {
@@ -1025,12 +1049,12 @@ video {
 
 .hover\:text-yellow-500:hover {
   --tw-text-opacity: 1;
-  color: rgba(245, 158, 11, var(--tw-text-opacity));
+  color: rgba(137, 52, 235, var(--tw-text-opacity));
 }
 
 .hover\:text-yellow-600:hover {
   --tw-text-opacity: 1;
-  color: rgba(217, 119, 6, var(--tw-text-opacity));
+  color: rgba(137, 52, 235, var(--tw-text-opacity));
 }
 
 *, ::before, ::after {

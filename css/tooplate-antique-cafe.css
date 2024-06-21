@@ -41,11 +41,11 @@ footer span a { color: #FFF; }
 }
 
 .tm-text-yellow {
-    color: #FC6;
+    color: #9b50f2;
 }
 
 .tm-text-gold {
-    color: #CC9966;
+    color: #8934eb;
 }
 
 .tm-text-brown {
@@ -118,7 +118,7 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
 
 #tm-nav li a.current,
 #tm-nav li a:hover {
-      border-bottom: 4px solid #CC9966;
+      border-bottom: 4px solid #9b50f2;
 }
 
 .tm-text-2xl {
